@@ -129,7 +129,7 @@ export function EmergencyCalculator() {
           <div className="space-y-5">
             <div>
               <div className="flex justify-between mb-2">
-                <Label className="text-sm font-semibold">Trenutna uštevina (za fond)</Label>
+                <Label className="text-sm font-semibold">Trenutna ušteđevina (za fond)</Label>
                 <span className="text-primary font-bold text-sm">{formatRSD(currentSavings)}</span>
               </div>
               <Slider min={0} max={500000} step={5000} value={[currentSavings]} onValueChange={(v) => setCurrentSavings(v[0])} className="mb-2" />

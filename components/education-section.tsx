@@ -40,13 +40,13 @@ const articles: Article[] = [
     intro: "Otvaranje bankovnog računa je prvi korak ka finansijskoj samostalnosti. Ovaj vodič ti objašnjava sve što treba da znaš – od izbora banke do aktivacije mobilnog bankarstva.",
     sections: [
       {
-        heading: "Koje dokumente trebaš?",
-        body: "Za otvaranje tekućeg računa u srpskoj banci uglavnom su potrebni: lična karta ili pasoš (original), poreski identifikacioni broj (PIB) ako si zaposlenž i u nekim bankama dokaz o adresi (račun za struju, telekomunikacije). Studenti mogu otvoriti studentski račun samo sa indeksom i ličnom kartom.",
+        heading: "Potrebni dokumenti",
+        body: "Za otvaranje tekućeg računa u srpskoj banci uglavnom su potrebni: lična karta ili pasoš (original), poreski identifikacioni broj (PIB) ako si zaposlen i u nekim bankama dokaz o adresi (račun za struju, telekomunikacije). Studenti mogu otvoriti studentski račun samo sa indeksom i ličnom kartom.",
         tip: "Mnoge banke sada nude otvaranje računa i online ili putem mobilne aplikacije bez posete ekspozituri.",
       },
       {
         heading: "Kako izabrati pravu banku?",
-        body: "Pre nego odabereš banku, poredi: mesečne naknade za održavanje računa (0–500 RSD), naknade za podizanje gotovine na bankomatima, dostupnost bankomata u tvom gradu, kvalitet mobilne i internet aplikacije, i da li postoje posebni paketi za mlade (18–27 godina). Banke poput Raiffeisen, OTP, UniCredit, NLB i AIK nude dobre digitalne usluge i povoljne pakete za studente.",
+        body: "Pre nego što odabereš banku, uporedi: mesečne naknade za održavanje računa (0–500 RSD), naknade za podizanje gotovine na bankomatima, dostupnost bankomata u tvom gradu, kvalitet mobilne i internet aplikacije, i da li postoje posebni paketi za mlade (18–27 godina). Banke poput Raiffeisen, OTP, UniCredit, NLB i AIK nude dobre digitalne usluge i povoljne pakete za studente.",
       },
       {
         heading: "Koraci za otvaranje računa",
@@ -151,7 +151,7 @@ const articles: Article[] = [
       },
       {
         heading: "Šta je prava 'hitna situacija'?",
-        body: "Jeste hitna situacija: Gubitak posla, medicinski troškovi koji nisu planirani, kvar automobila koji ti treba za posao, hitna popravka grejanja ili vodovoda, smrt u porodici koja zahteva putovanje. NIJE hitna situacija: Rasprodata karta za koncert, popust na laptop koji nisi planirač kupiti, letovanje jer su se drugi dogovorili, nova garderoba 'jer ti treba'.",
+        body: "Jeste hitna situacija: Gubitak posla, medicinski troškovi koji nisu planirani, kvar automobila koji ti treba za posao, hitna popravka grejanja ili vodovoda, smrt u porodici koja zahteva putovanje. NIJE hitna situacija: Rasprodata karta za koncert, popust na laptop koji nisi planirao kupiti, letovanje jer su se drugi dogovorili, nova garderoba 'jer ti treba'.",
       },
       {
         heading: "Šta ako iskoristiš fond?",
@@ -189,14 +189,14 @@ const articles: Article[] = [
       },
       {
         heading: "Sigurna online kupovina",
-        body: "Pre kupovine provjeri: Da li URL počinje sa 'https://' (brava ikonica)? Da li je sajt na domaćem ili dobro poznatom domenu? Da li prodavnica ima fizičku adresu i PIB? Da li postoje recenzije na nezavisnim platformama? Preporučene metode plaćanja: kreditna kartica (chargeback zaštita) ili platforma poput PayPal. Nikada ne plaćaj kriptovalutama ili bankovnim transferom nepoznatim prodavcima.",
+        body: "Pre kupovine proveri: Da li URL počinje sa 'https://' (brava ikonica)? Da li je sajt na domaćem ili dobro poznatom domenu? Da li prodavnica ima fizičku adresu i PIB? Da li postoje recenzije na nezavisnim platformama? Preporučene metode plaćanja: kreditna kartica (chargeback zaštita) ili platforma poput PayPal. Nikada ne plaćaj kriptovalutama ili bankovnim transferom nepoznatim prodavcima.",
       },
       {
         heading: "Praktična zaštita bankovnog računa",
         body: "Svakodnevna zaštita: Uključi SMS ili push obaveštenja za SVE transakcije. Postavi limite trošenja kartice (dnevni i mesečni). Koristi dvofaktorsku autentifikaciju za sve finansijske aplikacije. Redovno menjaj lozinke (svakih 3–6 meseci). Nikada ne koristiti javni WiFi za bankarske usluge – koristi mobilne podatke.",
       },
       {
-        heading: "Šta ako priimetiš sumnjive aktivnosti?",
+        heading: "Šta ako primetiš sumnjive aktivnosti?",
         body: "Odmah: Nazovi banku i blokiraj karticu (broj uvek imaš u aplikaciji ili na poleđini kartice). Priavi internet prevarante: Policiji (prijava online ili u stanici), MUP-u RS (cybercrime@mup.gov.rs), i NBS-u (prituzbe@nbs.rs). Sačuvaj sve dokaze: snimke ekrana, emailove, SMS poruke, transkripcije razgovora. Brza reakcija može ti spasiti novac.",
         tip: "Broj za blokiranje kartice snimi u telefonu pod imenom 'Banka hitna'. Potreban ti je bez interneta.",
       },
@@ -415,7 +415,7 @@ const articles: Article[] = [
       },
       {
         heading: "7–9. Psihologija trošenja",
-        body: "7. Pravilo 24 sata: Sačekaj dan pre bilo koje kupovine iznad 3.000 RSD. 80% puta, sutradan ne budeš hteo/la to da kupiš. 8. Ukloni sačuvane kartice sa online prodavnica: Ako moraš da uneseš broj kartice ručno, mnoge kupovine ostaješ neobavljene. 9. Pregled pretplata: Svaki kvartal provjeri sve mesečne pretplate. Netflix, Spotify, gym, delivery – da li koristiš sve?",
+        body: "7. Pravilo 24 sata: Sačekaj dan pre bilo koje kupovine iznad 3.000 RSD. 80% puta, sutradan ne budeš hteo/la to da kupiš. 8. Ukloni sačuvane kartice sa online prodavnica: Ako moraš da uneseš broj kartice ručno, mnoge kupovine ostaješ neobavljene. 9. Pregled pretplata: Svaki kvartal proveri sve mesečne pretplate. Netflix, Spotify, gym, delivery – da li koristiš sve?",
         tip: "Prosečna mlada osoba troši 3.000–8.000 RSD mesečno na pretplate koje slabo koristi.",
       },
       {
