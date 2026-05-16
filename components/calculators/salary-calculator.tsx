@@ -213,10 +213,18 @@ export function SalaryCalculator() {
             <div className="bg-primary rounded-2xl p-4 text-primary-foreground col-span-2">
               <div className="flex items-center gap-2 mb-1">
                 <User className="size-4 opacity-80" />
-                <span className="text-sm opacity-80">Neto plata (na ruke)</span>
+                <span className="text-sm opacity-80">
+                  {mode === "gross" ? "Neto plata (na ruke)" : "Bruto 1 plata"}
+                </span>
               </div>
-              <div className="text-3xl font-bold">{fmt(r.net)}</div>
-              <div className="text-sm opacity-70 mt-1">{netPct}% od bruto 1</div>
+              <div className="text-3xl font-bold">
+                {fmt(mode === "gross" ? r.net : r.gross)}
+              </div>
+              <div className="text-sm opacity-70 mt-1">
+                {mode === "gross"
+                  ? `${netPct}% od bruto 1`
+                  : `Neto: ${fmt(r.net)}`}
+              </div>
             </div>
             <div className="bg-card border border-border rounded-2xl p-4">
               <div className="flex items-center gap-2 mb-1">

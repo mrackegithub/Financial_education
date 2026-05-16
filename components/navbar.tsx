@@ -13,7 +13,7 @@ const tabs = [
   { id: "home", label: "Početna" },
   { id: "calculators", label: "Kalkulatori" },
   { id: "budget", label: "50/30/20 Pravilo" },
-  { id: "education", label: "Obrazovanje" },
+  { id: "education", label: "Edukacija" },
 ]
 
 export function Navbar({ activeTab, onTabChange }: NavbarProps) {
@@ -37,7 +37,7 @@ export function Navbar({ activeTab, onTabChange }: NavbarProps) {
           </button>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden md:flex items-center gap-1 flex-1 justify-center">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
@@ -52,16 +52,6 @@ export function Navbar({ activeTab, onTabChange }: NavbarProps) {
                 {tab.label}
               </button>
             ))}
-          </div>
-
-          {/* CTA */}
-          <div className="hidden md:block">
-            <button
-              onClick={() => onTabChange("calculators")}
-              className="px-4 py-2 bg-accent text-accent-foreground rounded-lg text-sm font-semibold hover:bg-accent/90 transition-colors"
-            >
-              Počni odmah
-            </button>
           </div>
 
           {/* Mobile hamburger */}

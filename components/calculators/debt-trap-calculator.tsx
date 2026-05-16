@@ -266,7 +266,7 @@ export function DebtTrapCalculator() {
               value={formatRSD(result.minInterest)}
               highlight
               color="destructive"
-              note="Ukupno placena kamata"
+              note="Ukupno plaćena kamata"
             />
             <StatCard
               icon={DollarSign}
@@ -274,7 +274,7 @@ export function DebtTrapCalculator() {
               value={formatRSD(result.fixedInterest)}
               highlight={false}
               color="primary"
-              note="Ukupno placena kamata"
+              note="Ukupno plaćena kamata"
             />
           </div>
         </div>
@@ -284,7 +284,7 @@ export function DebtTrapCalculator() {
           <div>
             <h4 className="text-sm font-semibold text-muted-foreground mb-1">Pad duga tokom vremena</h4>
             <p className="text-xs text-muted-foreground mb-4">
-              Crvena linija pada bolno sporo. Zelena linija prikazuje tvoj nacin brzeg otplacivanja.
+              Crvena linija pada bolno sporo. Zelena linija prikazuje tvoj način bržeg otplaćivanja.
             </p>
             <ResponsiveContainer width="100%" height={280}>
               <AreaChart data={result.data} margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>
@@ -336,14 +336,14 @@ export function DebtTrapCalculator() {
           {/* Savings callout */}
           {!fixedTooLow && interestSaved > 0 && (
             <div className="rounded-2xl border-2 border-primary/30 bg-primary/5 p-5 space-y-3">
-              <p className="text-sm font-bold text-primary">Placanjem fiksne rate stedis:</p>
+              <p className="text-sm font-bold text-primary">Plaćanjem fiksne rate štedis:</p>
               <div className="grid grid-cols-2 gap-3">
                 <div>
-                  <p className="text-xs text-muted-foreground">Ustedjena kamata</p>
+                  <p className="text-xs text-muted-foreground">Ušteđena kamata</p>
                   <p className="text-xl font-bold text-primary">{formatRSD(interestSaved)}</p>
                 </div>
                 <div>
-                  <p className="text-xs text-muted-foreground">Meseci bri ze</p>
+                  <p className="text-xs text-muted-foreground">Meseci brže</p>
                   <p className="text-xl font-bold text-primary">
                     {monthsSaved >= 1200 ? "Godinama" : formatMonths(monthsSaved)}
                   </p>
@@ -352,7 +352,7 @@ export function DebtTrapCalculator() {
               <p className="text-xs text-muted-foreground leading-relaxed">
                 Te{" "}
                 <span className="font-bold text-foreground">{formatRSD(interestSaved)}</span> kamate
-                mogao bi da investiras i zivas od prinosa. Kreditna kartica ih uzima umesto tebe.
+                mogao bi da potrošis na nešto drugo. Kreditna kartica ih uzima umesto tebe.
               </p>
             </div>
           )}

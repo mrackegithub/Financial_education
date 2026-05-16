@@ -39,8 +39,8 @@ const categoryDefs: CategoryDef[] = [
     color: "bg-primary/8 border-primary/25",
     barColor: "bg-primary",
     borderColor: "border-primary",
-    desc: "Kirija, hrana, prevoz, računi – stvari koje moraš platiti",
-    items: ["Kirija / kredit za stan", "Hrana i namirnice", "Struja, voda, grejanje", "Prevoz / gorivo", "Zdravlje i lekovi"],
+    desc: "Kirija, hrana, prevoz, računi, rate – stvari koje moraš platiti",
+    items: ["Kirija / kredit za stan", "Hrana i namirnice", "Struja, voda, grejanje", "Prevoz / gorivo", "Zdravlje i lekovi", "Dug/kredit otplata"],
   },
   {
     id: "wants",
@@ -62,7 +62,7 @@ const categoryDefs: CategoryDef[] = [
     barColor: "bg-chart-3",
     borderColor: "border-chart-3",
     desc: "Fond za hitne slučajeve, investicije, penzija – tvoja budućnost",
-    items: ["Fond za hitne slučajeve", "Štednja / investicije", "Penzijsko osiguranje", "Dug/kredit otplata"],
+    items: ["Fond za hitne slučajeve", "Štednja / investicije", "Penzijsko osiguranje", ],
   },
 ]
 

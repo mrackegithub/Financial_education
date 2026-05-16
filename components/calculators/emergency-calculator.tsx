@@ -180,7 +180,7 @@ export function EmergencyCalculator() {
 
           {/* Milestones */}
           <div>
-            <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">Milokazi</p>
+            <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">Značajni koraci</p>
             <div className="space-y-2">
               {milestones.map((m) => (
                 <div key={m.months} className={cn("flex items-center justify-between p-3 rounded-xl border", m.reached ? "bg-primary/5 border-primary/30" : "bg-muted border-border")}>

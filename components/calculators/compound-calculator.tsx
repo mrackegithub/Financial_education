@@ -40,10 +40,10 @@ const presets: Preset[] = [
   {
     id: "bonds",
     label: "Državne obveznice",
-    rate: 7.0,
+    rate: 5.0,
     risk: "Nizak rizik",
     riskColor: "text-primary",
-    desc: "Obveznice RS nude fiksni prinos od 6–9% godišnje. Sigurnije od akcija, bolje od štednje.",
+    desc: "Obveznice RS nude fiksni prinos od 4.5–5% godišnje. Sigurnije od akcija, bolje od štednje.",
     frequency: 2,
   },
   {

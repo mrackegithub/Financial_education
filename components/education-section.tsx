@@ -46,7 +46,7 @@ const articles: Article[] = [
       },
       {
         heading: "Kako izabrati pravu banku?",
-        body: "Pre nego što odabereš banku, uporedi: mesečne naknade za održavanje računa (0–500 RSD), naknade za podizanje gotovine na bankomatima, dostupnost bankomata u tvom gradu, kvalitet mobilne i internet aplikacije, i da li postoje posebni paketi za mlade (18–27 godina). Banke poput Raiffeisen, OTP, UniCredit, NLB i AIK nude dobre digitalne usluge i povoljne pakete za studente.",
+        body: "Pre nego što odabereš banku, uporedi: mesečne naknade za održavanje računa (0–500 RSD), naknade za podizanje gotovine na bankomatima, dostupnost bankomata u tvom gradu, kvalitet mobilne i internet aplikacije, i da li postoje posebni paketi za mlade (18–27 godina). Različite banke nude različite pakete – najbolji izbor zavisi od tvoje upotrebe (koliko često podimaš gotovinu, da li radiš onlajn kupovine, itd.). Proveri recenzije studenata na društvenim mrežama.",
       },
       {
         heading: "Koraci za otvaranje računa",
@@ -88,21 +88,21 @@ const articles: Article[] = [
     sections: [
       {
         heading: "Debitna kartica – trosiš sopstveni novac",
-        body: "Debitna kartica direktno povlači novac sa tvog tekućeg računa. Ako nema dovoljno pare – transakcija je odbijena. Nema kamate, nema dugova, nema rizika od prezaduženosti. Idealna za svakodnevne kupovine, online plaćanja i podizanje gotovine. U Srbiji, gotovo sve banke nude Visa ili Mastercard debitne kartice.",
+        body: "Debitna kartica direktno povlači novac sa tvog tekućeg računa. Ako nema dovoljno pare – transakcija je odbijena. Nema kamate, nema dugova, nema rizika od prezaduženosti. Idealna za svakodnevne kupovine, online plaćanja i podizanje gotovine. U Srbiji, gotovo sve banke nude Visa ili Mastercard debitne kartice. Oba kartična sistema sa debitnim karticama imaju procedure za reklamaciju u slučaju neovlašćene transakcije ili spornih nabavki.",
         tip: "Debitna kartica je uvek sigurniji izbor za početnike koji uče da upravljaju novcem.",
       },
       {
         heading: "Kreditna kartica – posuđuješ novac od banke",
-        body: "Kreditnom karticom koristiš novac banke do odobrenog kreditnog limita. Svaki mesec dobijaš izvod sa dugom koji moraš platiti. Ako vratiš CEO iznos do roka (grace period, obično 30–45 dana) – plaćaš 0% kamate. Ako platiš samo minimum ili kasniš – kamata je brutalna: u Srbiji 20–30% godišnje, a na nekim karticama i do 36%!",
+        body: "Kreditnom karticom koristiš novac banke do odobrenog kreditnog limita. Svaki mesec dobijaš izvod sa dugom koji moraš platiti. Ako vratiš CELO iznos do roka (grace period, obično 30–45 dana) – plaćaš 0% kamate. Ako platiš samo minimum ili kasniš – kamata može biti visoka; u praksi godišnje kamatne stope često su u opsegu ~20–36% u zavisnosti od banke i proizvoda, pa proveri T&C banke.",
       },
       {
         heading: "Prednosti kreditnih kartica (ako se koriste pametno)",
-        body: "Izgradnja kreditne istorije: plaćanje na vreme gradi tvoj kreditni skor, koji ti treba za hipoteku ili veće zajmove. Zaštita kupovine (chargeback): ako ne dobiješ kupljenu robu ili prodavac te prevari, banka može povratiti novac. Cashback i nagrade: neke kartice daju 1–3% povrat na određene kategorije (gorivo, supermarketi). Korisnost u hitnim situacijama: privremeno pokriće neočekivanih troškova.",
+        body: "Izgradnja kreditne istorije: plaćanje na vreme gradi tvoj kreditni skor, koji ti treba za hipoteku ili veće zajmove. Zaštita kupovine (chargeback/dispute): ako ne dobiješ kupljenu robu ili te prevari prodavac, moguće je podneti reklamaciju kod izdavaoca kartice i tražiti povraćaj sredstava (primer: Mastercard dispute procedures https://www.mastercard.us/en-us/consumers/how-to-dispute.html). Cashback i nagrade: neke kartice daju 1–3% povrat na određene kategorije (gorivo, supermarketi). Korisnost u hitnim situacijama: privremeno pokriće neočekivanih troškova.",
         tip: "Chargeback ne postoji kod debitnih kartica – ovo je ključna prednost kreditnih kartica za online kupovine.",
       },
       {
         heading: "Zamke kreditnih kartica koje mlade hvataju",
-        body: "Minimalna otplata: banke traže samo 3–5% duga mesečno. Ako platiš minimum, dug raste zbog kamate i može trajati godinama. Prekoračenje limita: neke kartice dozvoljavaju trošenje iznad limita uz visoke naknade. Podizanje gotovine: uvek se naplaćuje naknada (2–5%) i odmah teče kamata, bez grace perioda. Propušteni rok: jedna zaboravljena uplata može pokrenuti kazne i obeležiti tvoju kreditnu istoriju.",
+        body: "Minimalna otplata: banke traže samo 3–5% duga mesečno. Ako platiš minimum, dug raste zbog kamate i može trajati godinama. Prekoračenje limita: neke kartice dozvoljavaju trošenje iznad limita uz visoke naknade. Podizanje gotovine: uvek se naplaćuje naknada (2–5%) i odmah teče kamata, bez grace perioda – izbegavaj ovo. Propušteni rok: jedna zaboravljena uplata može pokrenuti kazne i obeležiti tvoju kreditnu istoriju.",
       },
       {
         heading: "Zlatno pravilo kreditnih kartica",
@@ -116,7 +116,7 @@ const articles: Article[] = [
     keyTakeaways: [
       "Debitna = tvoj novac. Kreditna = pozajmljeni novac uz mogućnost visokih kamata",
       "Kreditna kartica bez kamate je moguća samo ako vratiš ceo iznos do roka",
-      "Kamata na kreditnim karticama u Srbiji: 20–36% godišnje",
+      "Kamata na kreditnim karticama često iznosi oko 20–36% godišnje (varira po banci i proizvodu)",
       "Chargeback zaštita je ključna prednost kreditnih kartica",
       "Zlatno pravilo: koristi kreditnu samo ako imaš novac za to",
     ],
@@ -138,7 +138,7 @@ const articles: Article[] = [
       },
       {
         heading: "Koliko novca treba da imaš?",
-        body: "Opšte pravilo: 3–6 meseci tvojih OSNOVNIH mesečnih troškova (kirija, hrana, komunalije, transport, zdravlje). Ne ukupnih prihoda, nego samo neophodnih troškova. Ako tvoji mesečni osnovni troškovi iznose 55.000 RSD: Minimalni fond (3 mes.): 165.000 RSD. Preporučeni fond (6 mes.): 330.000 RSD. Freelenseri i nestabilni prihodi: 6–9 meseci troškova.",
+        body: "Opšte pravilo: 3–6 meseci tvojih OSNOVNIH mesečnih troškova (kirija, hrana, komunalije, transport, zdravlje). Ne ukupnih prihoda, nego samo neophodnih troškova. Ako tvoji mesečni osnovni troškovi iznose 55.000 RSD: Minimalni fond (3 mes.): 165.000 RSD. Preporučeni fond (6 mes.): 330.000 RSD. Freelanceri i nestabilni prihodi: 6–9 meseci troškova.",
       },
       {
         heading: "Gde čuvati fond za hitne slučajeve?",
@@ -189,7 +189,7 @@ const articles: Article[] = [
       },
       {
         heading: "Sigurna online kupovina",
-        body: "Pre kupovine proveri: Da li URL počinje sa 'https://' (brava ikonica)? Da li je sajt na domaćem ili dobro poznatom domenu? Da li prodavnica ima fizičku adresu i PIB? Da li postoje recenzije na nezavisnim platformama? Preporučene metode plaćanja: kreditna kartica (chargeback zaštita) ili platforma poput PayPal. Nikada ne plaćaj kriptovalutama ili bankovnim transferom nepoznatim prodavcima.",
+        body: "Pre kupovine proveri: Da li URL počinje sa 'https://' (brava ikonica)? Da li je sajt na domaćem ili dobro poznatom domenu? Da li prodavnica ima fizičku adresu i PIB? Da li postoje recenzije na nezavisnim platformama? Preporučene metode plaćanja: kreditna ili debitna kartica (mogućnost reklamacije/dispute) ili platforma poput PayPal (https://www.paypal.com/). Nikada ne plaćaj kriptovalutama ili bankovnim transferom nepoznatim prodavcima.",
       },
       {
         heading: "Praktična zaštita bankovnog računa",
@@ -208,7 +208,7 @@ const articles: Article[] = [
     keyTakeaways: [
       "Banka nikad ne traži PIN, lozinku, ili CVV telefonom ili emailom",
       "Hitnost i pritisak su uvek crvene zastavice",
-      "Kreditna kartica ima chargeback zaštitu, debitna nema",
+      "I kreditne i debitne kartice mogu podneti reklamacije i zahteve za povraćaj sredstava; dostupnost i postupak (chargeback/dispute) zavise od izdavaoca i kartičnog sistema",
       "Nikad ne koristiti javni WiFi za bankarske usluge",
       "Broj za blokiranje kartice uvek u telefonu",
     ],
@@ -315,8 +315,8 @@ const articles: Article[] = [
     sections: [
       {
         heading: "Kako funkcioniše porez na plate u Srbiji?",
-        body: "Svaki zaposleni plaća doprinose (oduzimaju se od bruto plate): PIO – penzijsko i invalidsko osiguranje: 14% od bruto. Zdravstveno osiguranje: 5.15% od bruto. Osiguranje za nezaposlenost: 0.75% od bruto. Ukupno zaposleni plaća ~19.9% bruto plate. Poslodavac plaća dodatnih ~17.9% na bruto (PIO 11%, zdravstveno 5.15%, nezaposlenost 0.75%, dr. doprinosi). Porez na dohodak: 10% na oporezivi prihod, uz mesečno oslobođenje od 25.001 RSD.",
-        tip: "Oporezivi prihod = bruto plata − doprinosi − oslobođenje od 25.001 RSD.",
+        body: "Zaposleni plaća doprinose: PIO 14%, zdravstveno 5.15%, osiguranje za nezaposlenost 0.75% (ukupno oko 19.9% od bruto). Poslodavac plaća dodatne doprinose (oko 17–18%, zavisi od kategorije). Porez na dohodak: 10% na oporezivi prihod; mesečno neoporezivo oslobođenje se menja — proveri Poresku upravu (https://www.purs.gov.rs/ ili https://www.poreskauprava.gov.rs/) za aktuelne iznose.",
+        tip: "Oporezivi prihod = bruto plata − doprinosi − oslobođenje od 34.221 RSD.",
       },
       {
         heading: "Godišnji porez na dohodak",
@@ -327,13 +327,13 @@ const articles: Article[] = [
         body: "Svaki zaposleni ima pravo na uvid u platnu listu. Ona prikazuje: bruto platu (šta te košta poslodavca), doprinose na teret zaposlenog (što se odbija od bruto), porez na dohodak, i neto platu (što dobijate na račun). Ukupna cena zaposlenog = bruto + doprinosi na teret poslodavca. Za bruto od 80.000 RSD, poslodavca košta oko 94.000 RSD.",
       },
       {
-        heading: "Freelens i rad van klasičnog zaposlenja",
+        heading: "Freelance i rad van klasičnog zaposlenja",
         body: "Ako radiš kao freelenser, imaš opcije: Preduzetnik paušalac: Flat-rate porez, idealan za manje prihode. Lična firma (d.o.o.): Više administracije, ali bolji za veće prihode. Ugovor o delu / autorski ugovor: Moguć, ali sa specifičnim poreskim obavezama. NBS i Poreska uprava sve strože kontrolišu prihode sa stranih platformi (Upwork, Fiverr, YouTube). Prijavi prihode – kazne za neprijavljene prihode su visoke.",
         tip: "Konsultuj poreskog savetnika pre nego se registruješ kao preduzetnik – pravilan izbor može uštedeti hiljade.",
       },
       {
         heading: "Poreske olakšice koje postoje",
-        body: "Možeš smanjiti poreznu osnovu uplatama za: Dobrovoljno penzijsko osiguranje (treći stub): do 5.929 RSD mesečno. Životno osiguranje: do 5.929 RSD mesečno. Investicijski fondovi: određene olakšice. Olakšice za mlade roditelje i osobe sa invaliditetom. Uvek proveri sa poslodavcem ili poreskim savetnikom koje olakšice možeš iskoristiti.",
+        body: "Možeš smanjiti poreznu osnovu uplatama za određene vrste (dobrovoljno penzijsko, životno osiguranje, itd.); postoje gornji limiti koji se menjaju — proveri Poresku upravu za tačne aktuelne iznose i uslove.",
       },
       {
         heading: "Digitalni poreski alati",
@@ -342,9 +342,9 @@ const articles: Article[] = [
     ],
     keyTakeaways: [
       "Zaposleni plaća ~20% bruto u doprinose + 10% porez na dohodak",
-      "Oslobođenje od 25.001 RSD mesečno smanjuje poresku osnovu",
+      "Oslobođenje od 34.221 RSD mesečno smanjuje poresku osnovu",
       "Godišnji porez se plaća ako prihodi prelaze 3x prosečnu zaradu",
-      "Freelenseri moraju sami prijaviti prihode – kontrole su sve strože",
+      "Freelanceri moraju sami prijaviti prihode – kontrole su sve strože",
       "Dobrovoljno penzijsko i životno osiguranje daju poreske olakšice",
     ],
   },
@@ -373,7 +373,7 @@ const articles: Article[] = [
       },
       {
         heading: "Zaštita tvojih depozita",
-        body: "Depoziti u bankama u Srbiji osigurani su do 50.000 EUR po banci putem Agencije za osiguranje depozita (AOD). Ako banka propadne, garantovano dobijaš novac do 50.000 EUR. Ako imaš više od 50.000 EUR, razmisli o raspoređivanju u više banaka. Osiguranje ne pokriva investicione fondove i akcije – samo klasičan depozit.",
+        body: "Depoziti u bankama u Srbiji obično su osigurani do 50.000 EUR po depozitu po banci putem Agencije za osiguranje depozita (AOD) (https://aod.rs/). Ako banka propadne, osiguranje pokriva depozite do propisanog limita. Ako imaš više od osiguranog iznosa, razmisli o raspoređivanju sredstava u više banaka. Osiguranje ne pokriva investicione fondove i akcije – samo klasične depozite.",
         tip: "Lista osiguranih banaka i detaljne informacije na aod.org.rs.",
       },
       {
@@ -406,7 +406,7 @@ const articles: Article[] = [
     sections: [
       {
         heading: "1–3. Razumevanje tvojih troškova",
-        body: "1. Prati svaki dinar 30 dana: Pre nego što budutiš, shvati gde ti novac zaista ide. Koristi aplikaciju (Spendee, Money Manager) ili Excel. Mnogi se iznenade – kafica dva puta dnevno je 24.000 RSD godišnje. 2. Kategoriziraj trošak: Podeli u 'Potrebe' i 'Želje'. Potrošio si 8.000 RSD na izlaske? To je želja, ne potreba. 3. Nađi 'razbojnike budžeta': Pretplate koje koristiš malo, impulzivne kupovine, nepotrebna putovanja taksijem.",
+        body: "1. Prati svaki dinar 30 dana: Pre nego što počneš, shvati gde ti novac zaista ide. Koristi aplikaciju (Spendee, Money Manager) ili Excel. Mnogi se iznenade – kafa dva puta dnevno može koštati oko 24.000 RSD godišnje. 2. Kategoriziraj trošak: podeli u 'Potrebe' i 'Želje'. Potrošio si 8.000 RSD na izlaske? To je želja, ne potreba. 3. Nađi 'razbojnike budžeta': pretplate koje retko koristiš, impulzivne kupovine, nepotrebna putovanja taksijem.",
         tip: "Pametni telefon je zapravo dobar alat za praćenje troškova – fotografiši svaki račun.",
       },
       {
@@ -444,7 +444,7 @@ const articles: Article[] = [
     sections: [
       {
         heading: "Stipendije i finansijska podrška studentima",
-        body: "Republička stipendija: Ministarstvo prosvete dodeljuje oko 12.000 RSD mesečno najboljim studentima (prosek 9+). Prijava putem eUprave do oktobra svake godine. Lokalne stipendije: Opštine i gradovi imaju vlastite stipendije – proveri svoju opštinu. Stipendije kompanija: Telekomunikacione kompanije, banke i IT firme stipendiraju talentovane studente uz obavezu zaposlenja. Fond za mlade talente Srbije: za odlično uspešne studente.",
+        body: "Republičke i lokalne stipendije dodeljuje Ministarstvo prosvete i lokalne samouprave; iznosi i uslovi variraju — proveri zvanični sajt Ministarstva prosvete (https://www.mpn.gov.rs/) i eUprave (https://euprava.gov.rs/) za aktuelne iznose i rokove prijave.",
         tip: "Mnogi studenti ne znaju da postoje opštinske stipendije. Proveri na sajtu svoje opštine.",
       },
       {
@@ -453,12 +453,12 @@ const articles: Article[] = [
       },
       {
         heading: "Studentski posao i prihodi",
-        body: "Studentska zadruga: Legalan način da radiš dok studiješ. Poreske olakšice za studente do 26 godina. Freelens online: Programiranje, dizajn, prevod, copywriting – može se raditi uz studije. Plaćena praksa: Mnoge firme plaćaju stažiste 30.000–60.000 RSD mesečno. Podučavanje: Privatne čase je dobro plaćeno i fleksibilno. Preporučeni prihod: Pokušaj pokriti bar 30–50% troškova iz sopstvenih prihoda.",
+        body: "Studentska zadruga: Legalan način da radiš dok studiješ. Poreske olakšice za studente do 26 godina. Freelance online: programiranje, dizajn, prevod, copywriting – može se raditi uz studije. Plaćena praksa: Mnoge firme plaćaju stažiste 30.000–60.000 RSD mesečno. Podučavanje: privatni časovi su dobro plaćeni i fleksibilni. Preporučeni prihod: Pokušaj pokriti bar 30–50% troškova iz sopstvenih prihoda.",
       },
       {
         heading: "Studentski budžet – gde se troši novac?",
-        body: "Tipični troškovi studenta u Srbiji: Kirija (izvan doma): 20.000–40.000 RSD. Hrana (dom/menza vs. restorani): 10.000–20.000 RSD. Prevoz: 3.000–6.000 RSD (studentski mesečni za 1.600 RSD u Beogradu!). Udžbenici i materijali: 2.000–5.000 RSD. Zabava i izlasci: Ovo je gde 'deca' troše previše. Cilje: Max 15% budžeta.",
-        tip: "Studentska mesečna karta u Beogradu je oko 1.600 RSD – iskoristi je maksimalno.",
+        body: "Tipični troškovi studenta u Srbiji: Kirija (izvan doma): 20.000–40.000 RSD. Hrana (dom/menza vs. restorani): 10.000–20.000 RSD. Prevoz: varira po gradu; proveri cenu studentske mesečne karte u svom gradu. Udžbenici i materijali: 2.000–5.000 RSD. Zabava i izlasci: Ovo je gde 'deca' troše previše. Cilj: Max 15% budžeta.",
+        tip: "Studentska mesečna karta u Beogradu ima cenu koja se menja — proveri GSP cenovnik (https://www.gsp.rs/) za tačnu cenu.",
       },
       {
         heading: "Studentski kredit – da ili ne?",
