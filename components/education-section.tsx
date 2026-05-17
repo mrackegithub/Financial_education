@@ -46,7 +46,7 @@ const articles: Article[] = [
       },
       {
         heading: "Kako izabrati pravu banku?",
-        body: "Pre nego što odabereš banku, uporedi: mesečne naknade za održavanje računa (0–500 RSD), naknade za podizanje gotovine na bankomatima, dostupnost bankomata u tvom gradu, kvalitet mobilne i internet aplikacije, i da li postoje posebni paketi za mlade (18–27 godina). Različite banke nude različite pakete – najbolji izbor zavisi od tvoje upotrebe (koliko često podimaš gotovinu, da li radiš onlajn kupovine, itd.). Proveri recenzije studenata na društvenim mrežama.",
+        body: "Pre nego što odabereš banku, uporedi: mesečne naknade za održavanje računa (0–500 RSD), naknade za podizanje gotovine na bankomatima, dostupnost bankomata u tvom gradu, kvalitet mobilne i internet aplikacije, i da li postoje posebni paketi za mlade (18–27 godina). Različite banke nude različite pakete – najbolji izbor zavisi od tvoje upotrebe (koliko često podižeš gotovinu, da li kupuješ na internetu, itd.). Proveri recenzije studenata na društvenim mrežama.",
       },
       {
         heading: "Koraci za otvaranje računa",
@@ -72,7 +72,7 @@ const articles: Article[] = [
       "Studentski paketi su obično znatno povoljniji od standardnih",
       "Aktiviraj 2FA i SMS obaveštenja odmah po otvaranju",
       "Pitaj za instant karticu da ne čekaš 10 dana",
-      "Čitaj ugovor pažljivo, naročito odeljak o naknadama",
+      "Čitaj ugovor pažljivo, naročito deo o naknadama",
     ],
   },
   {
@@ -92,12 +92,12 @@ const articles: Article[] = [
         tip: "Debitna kartica je uvek sigurniji izbor za početnike koji uče da upravljaju novcem.",
       },
       {
-        heading: "Kreditna kartica – posuđuješ novac od banke",
-        body: "Kreditnom karticom koristiš novac banke do odobrenog kreditnog limita. Svaki mesec dobijaš izvod sa dugom koji moraš platiti. Ako vratiš CELO iznos do roka (grace period, obično 30–45 dana) – plaćaš 0% kamate. Ako platiš samo minimum ili kasniš – kamata može biti visoka; u praksi godišnje kamatne stope često su u opsegu ~20–36% u zavisnosti od banke i proizvoda, pa proveri T&C banke.",
+        heading: "Kreditna kartica – pozajmljuješ novac od banke",
+        body: "Kreditnom karticom koristiš novac banke do odobrenog kreditnog limita. Svaki mesec dobijaš izvod sa dugom koji moraš platiti. Ako vratiš ceo iznos do roka (grace period, obično 30–45 dana) – plaćaš 0% kamate. Ako platiš samo minimum ili kasniš – kamata može biti visoka; u praksi godišnje kamatne stope često su u opsegu ~20–36% u zavisnosti od banke i proizvoda, pa proveri T&C banke.",
       },
       {
-        heading: "Prednosti kreditnih kartica (ako se koriste pametno)",
-        body: "Izgradnja kreditne istorije: plaćanje na vreme gradi tvoj kreditni skor, koji ti treba za hipoteku ili veće zajmove. Zaštita kupovine (chargeback/dispute): ako ne dobiješ kupljenu robu ili te prevari prodavac, moguće je podneti reklamaciju kod izdavaoca kartice i tražiti povraćaj sredstava (primer: Mastercard dispute procedures https://www.mastercard.us/en-us/consumers/how-to-dispute.html). Cashback i nagrade: neke kartice daju 1–3% povrat na određene kategorije (gorivo, supermarketi). Korisnost u hitnim situacijama: privremeno pokriće neočekivanih troškova.",
+        heading: "Prednosti kreditnih kartica",
+        body: "Izgradnja kreditne istorije: plaćanje na vreme gradi tvoj kreditni skor, koji ti treba za hipoteku ili veće zajmove. Zaštita kupovine (chargeback/dispute): ako ne dobiješ kupljenu robu ili te prevari prodavac, moguće je podneti reklamaciju kod izdavaoca kartice i tražiti povraćaj sredstava. Cashback i nagrade: neke kartice daju 1–3% povrat na određene kategorije (gorivo, supermarketi). Korisnost u hitnim situacijama: privremeno pokriće neočekivanih troškova.",
         tip: "Chargeback ne postoji kod debitnih kartica – ovo je ključna prednost kreditnih kartica za online kupovine.",
       },
       {
@@ -164,7 +164,7 @@ const articles: Article[] = [
       "Drži fond odvojen od tekućeg računa",
       "Automatizuj prenos na dan plate – ne čekaj 'ostatak'",
       "Fond je za prave hitne situacije, ne za prilike i popuste",
-      "Posle korišćenja fonda – odmah kreni sa punjanjem",
+      "Posle korišćenja fonda – odmah kreni sa punjenjem",
     ],
   },
   {
@@ -202,7 +202,7 @@ const articles: Article[] = [
       },
       {
         heading: "Sigurnost lozinki i digitalnih naloga",
-        body: "Koristiti unikalne, jake lozinke za svaki servis (minimalno 12 karaktera, kombinacija slova, brojeva, simbola). Nikada ne koristiti istu lozinku za banku i društvene mreže. Koristi menadžer lozinki (Bitwarden je besplatan i open-source). Periodično proveri da li su tvoji podaci procureli: haveibeenpwned.com. Uključi login obaveštenja za Gmail, Apple ID, i ostale ključne naloge.",
+        body: "Koristiti unikatne, jake lozinke za svaki servis (minimalno 12 karaktera, kombinacija slova, brojeva, simbola). Nikada ne koristiti istu lozinku za banku i društvene mreže. Koristi menadžer lozinki (Bitwarden je besplatan i open-source). Periodično proveri da li su tvoji podaci procureli: haveibeenpwned.com. Uključi login obaveštenja za Gmail, Apple ID, i ostale ključne naloge.",
       },
     ],
     keyTakeaways: [
@@ -230,7 +230,7 @@ const articles: Article[] = [
       },
       {
         heading: "Opcije za investiranje u Srbiji",
-        body: "Oročena štednja (2–6%): Najsigurnija, osigurana do 50.000 EUR. Nizak prinos, ali bez rizika gubitka. Državne obveznice RS (6–9%): Kupuju se kroz NBS ili banke. Fiksni prinos, relativno siguran. Obveznice u EUR ili USD. Akcije na BVB (Beogradska berza): Korporativne akcije – viši rizik i potencijalni prinos. Likvidnost niža nego na Zapadu. Međunarodni ETF fondovi: Indeksni fondovi koji prate S&P 500, MSCI World. Pristupačni putem Interactive Brokers, Trading 212. Kriptovalute: Visoko špekulativno, bez regulatorne zaštite. Samo za iskusne investitore.",
+        body: "Oročena štednja (2–6%): Najsigurnija, osigurana do 50.000 EUR. Nizak prinos, ali bez rizika gubitka. Državne obveznice RS (6–9%): Kupuju se kroz NBS ili banke. Fiksni prinos, relativno siguran. Obveznice u EUR ili USD. Akcije na BVB (Beogradska berza): Korporativne akcije – viši rizik i potencijalni prinos. Likvidnost niža nego na Zapadu. Međunarodni ETF fondovi: Indeksni fondovi koji prate S&P 500, MSCI World. Pristupačni putem Interactive Brokers, Trading 212. ",
       },
       {
         heading: "Šta je ETF i zašto ga preporučuju početnicima?",
@@ -239,7 +239,7 @@ const articles: Article[] = [
       },
       {
         heading: "Zlatna pravila investiranja",
-        body: "Investiraj samo novac koji ne trebaš u sledećih 5+ godina – tržišta kratkoročno padaju, ali se oporavljaju. Diversifikuj – ne stavljaj sve u jednu kompaniju, sector ili valutu. Investiraj redovno (DCA metoda) – ne čekaj 'pravi trenutak', svaki mesec uplaćuj isti iznos. Ne prodavaj u panici – pad tržišta je prilika za kupovinu, ne razlog za bežanje. Razumej šta kupuješ – ne slepo slušaj savete influensera.",
+        body: "Investiraj samo novac koji ti ne treba u sledećih 5+ godina – tržišta kratkoročno padaju, ali se oporavljaju. Diversifikuj – ne stavljaj sve u jednu kompaniju, sector ili valutu. Investiraj redovno (DCA metoda) – ne čekaj 'pravi trenutak', svaki mesec uplaćuj isti iznos. Ne prodavaj u panici – pad tržišta je prilika za kupovinu, ne razlog za bežanje. Razumej šta kupuješ – nemoj slepo slušati savete influensera.",
       },
       {
         heading: "Kako početi: korak po korak",
@@ -247,7 +247,7 @@ const articles: Article[] = [
       },
       {
         heading: "Greške koje mlade investitore koštaju",
-        body: "FOMO (Fear Of Missing Out): Kupovina akcija ili kriptovaluta jer su 'svi kupuju' – obično na vrhu tržišta. Paničko prodavanje: Prodaja tokom pada – realizuješ gubitak i promasiš oporavak. Ignorisanje poreza: Prihodi od investicija se oporezuju! Informiši se o poreskim obavezama. Pretjerano trading: Česta kupoprodaja povećava troškove i smanjuje prinos. Nedostatak diversifikacije: Sve u jedan instrument je kockanje, ne investiranje.",
+        body: "FOMO (Fear Of Missing Out): Kupovina akcija ili kriptovaluta jer su 'svi kupuju' – obično na vrhu tržišta. Paničko prodavanje: Prodaja tokom pada – realizuješ gubitak i promasiš oporavak. Ignorisanje poreza: Prihodi od investicija se oporezuju! Informiši se o poreskim obavezama.",
       },
     ],
     keyTakeaways: [
@@ -270,7 +270,7 @@ const articles: Article[] = [
     sections: [
       {
         heading: "Da li je sav dug loš?",
-        body: "Nije. Postoje 'dobri' i 'loši' dugovi. Dobar dug: Investicija koja povećava tvoju vrednost ili prihode. Studentski kredit koji povećava zaradu, hipotekarni kredit za nekretninu koja se valoruje, kredit za opremu kojom zarađuješ novac. Loš dug: Kredit za potrošna dobra koja gube vrednost. Kredit za letovanje, TV, telefon ili odeću koji vreže manje nego ukupno platiš u kamatama. Najgori dug: Revolving kredit i neplaćeni saldo kreditne kartice.",
+        body: "Nije. Postoje 'dobri' i 'loši' dugovi. Dobar dug: Investicija koja povećava tvoju vrednost ili prihode. Studentski kredit koji povećava zaradu, hipotekarni kredit za nekretninu koja se valoruje, kredit za opremu kojom zarađuješ novac. Loš dug: Kredit za potrošna dobra koja gube vrednost. Kredit za letovanje, TV, telefon ili odeću koji vrede manje nego što ukupno platiš u kamatama. Najgori dug: Revolving kredit i neplaćeni saldo kreditne kartice.",
       },
       {
         heading: "Metoda snežne lopte (Snowball)",
@@ -287,12 +287,12 @@ const articles: Article[] = [
       },
       {
         heading: "Znaci da imaš problem sa dugovima",
-        body: "Zabrinjavajuće znake: Plaćaš dug jednim kreditom (revolving). Ne možeš mesečno uštedjeti ništa jer sve ide na rate. Preskačeš plaćanje računa ili rata. Svaki mesec zavisno od kreditnog prekoračenja. Ukupne rate iznose više od 40% neto prihoda. Krij dugove od partnera ili porodice. Ako prepoznaješ ove znake, odmah traži besplatno savetovanje.",
+        body: "Zabrinjavajući znaci: Plaćaš dug kreditom (revolving). Ne možeš mesečno uštedeti ništa jer sve ide na rate. Preskačeš plaćanje računa ili rata. Ukupne rate iznose više od 40% neto prihoda. Kriješ dugove od partnera ili porodice. Ako prepoznaješ ove znake, odmah traži pomoć.",
         tip: "NBS nudi besplatno finansijsko savetovanje građanima koji imaju probleme sa dugovima.",
       },
       {
         heading: "Kako izbegavati dug u budućnosti?",
-        body: "Fundamentalne navike: Troši manje nego što zarađuješ (uvek). Izgradi fond za hitne slučajeve da izbegneš neplanirani dug. Ne kupuj na kredit stvari koje gube vrednost. Pre uzimanja kredita, izračunaj ukupnu cenu (s kamatom), ne samo mesečnu ratu. Postavi pravilo 24 sata: sačekaj dan pre svake kupovine iznad 5.000 RSD.",
+        body: "Fundamentalne navike: Troši manje nego što zarađuješ. Izgradi fond za hitne slučajeve da izbegneš neplanirani dug. Ne kupuj na kredit stvari koje gube vrednost. Pre uzimanja kredita, izračunaj ukupnu cenu (s kamatom), ne samo mesečnu ratu. ",
       },
     ],
     keyTakeaways: [
@@ -320,7 +320,7 @@ const articles: Article[] = [
       },
       {
         heading: "Godišnji porez na dohodak",
-        body: "Ako tvoji ukupni prihodi u jednoj godini pređu 3x prosečnu godišnju zaradu u Srbiji (oko 2.7 miliona RSD za 2024), plaćaš i godišnji porez na dohodak: 10% na iznos između 3x i 6x prosečne zarade, i 15% na sve iznad 6x prosečne zarade. Poreska prijava za godišnji porez podnosi se do 15. maja za prethodnu godinu, elektronski putem ePorezi portala.",
+        body: "Ako tvoji ukupni prihodi u jednoj godini pređu 3x prosečnu godišnju zaradu u Srbiji (oko 4 miliona RSD za 2026), plaćaš i godišnji porez na dohodak: 10% na iznos između 3x i 6x prosečne zarade, i 15% na sve iznad 6x prosečne zarade. Poreska prijava za godišnji porez podnosi se do 15. maja za prethodnu godinu, elektronski putem ePorezi portala.",
       },
       {
         heading: "Šta je platna lista i kako je čitati?",
@@ -369,12 +369,12 @@ const articles: Article[] = [
       },
       {
         heading: "Kako kamatne stope utiču na tebe?",
-        body: "Kada NBS podiže referentnu stopu: krediti skuplje, štednja donosi više. Kada NBS snižava stopu: krediti jeftiniji, štednja manje isplativa. Mnogi stambeni krediti u Srbiji su vezani za EURIBOR (European Interbank Offered Rate) + fiksna marža banke. Kada EURIBOR raste (kao 2022–2023), rate stambenih kredita automatski rastu. Uvek pitaj bančina: da li je kamatna stopa fiksna ili promenljiva?",
+        body: "Kada NBS podiže referentnu stopu: krediti postaju skuplji, štednja donosi više. Kada NBS snižava stopu: krediti postaju jeftiniji, štednja manje isplativa. Mnogi stambeni krediti u Srbiji su vezani za EURIBOR (European Interbank Offered Rate) + fiksna marža banke. Kada EURIBOR raste (kao 2022–2023), rate stambenih kredita automatski rastu. Uvek pitaj bankara: da li je kamatna stopa fiksna ili promenljiva?",
       },
       {
         heading: "Zaštita tvojih depozita",
         body: "Depoziti u bankama u Srbiji obično su osigurani do 50.000 EUR po depozitu po banci putem Agencije za osiguranje depozita (AOD) (https://aod.rs/). Ako banka propadne, osiguranje pokriva depozite do propisanog limita. Ako imaš više od osiguranog iznosa, razmisli o raspoređivanju sredstava u više banaka. Osiguranje ne pokriva investicione fondove i akcije – samo klasične depozite.",
-        tip: "Lista osiguranih banaka i detaljne informacije na aod.org.rs.",
+        tip: "Lista osiguranih banaka i detaljne informacije na nkosk.rs/cir/spisak-banaka-2/",
       },
       {
         heading: "Bankarstvo u Srbiji – šta je dobro, šta nije",
@@ -415,12 +415,12 @@ const articles: Article[] = [
       },
       {
         heading: "7–9. Psihologija trošenja",
-        body: "7. Pravilo 24 sata: Sačekaj dan pre bilo koje kupovine iznad 3.000 RSD. 80% puta, sutradan ne budeš hteo/la to da kupiš. 8. Ukloni sačuvane kartice sa online prodavnica: Ako moraš da uneseš broj kartice ručno, mnoge kupovine ostaješ neobavljene. 9. Pregled pretplata: Svaki kvartal proveri sve mesečne pretplate. Netflix, Spotify, gym, delivery – da li koristiš sve?",
+        body: "7. Pravilo 24 sata: Sačekaj dan pre bilo koje kupovine iznad 3.000 RSD. 80% puta, sutradan nećeš hteti to da kupiš. 8. Ukloni sačuvane kartice sa online prodavnica: Ako moraš da uneseš broj kartice ručno, preispitaćeš mnoge kupovine. 9. Pregled pretplata: Svaki kvartal proveri sve mesečne pretplate. Netflix, Spotify, gym, delivery – da li koristiš sve?",
         tip: "Prosečna mlada osoba troši 3.000–8.000 RSD mesečno na pretplate koje slabo koristi.",
       },
       {
         heading: "10–12. Dugoročno razmišljanje",
-        body: "10. Konkretni finansijski ciljevi: 'Uštediću 200.000 RSD za godinu dana za akontaciju' je bolje od 'trudiću se da štedim'. Konkretni ciljevi imaju rok i iznos. 11. Mesečni pregled (15 minuta): Na kraju meseca proveri: da li sam ostao/la u budžetu? Šta je iznenada povećalo troškove? Šta mogu promeniti sledeći mesec? 12. Praznici i posebne prilike: Unapred planiraj troškove (Božić, Nova Godina, rodjendani). Odloži mesečno malo u 'fond za praznike' da te ne iznenade.",
+        body: "10. Konkretni finansijski ciljevi: 'Uštedeću 200.000 RSD za godinu dana za auto' je bolje od 'trudiću se da štedim'. Konkretni ciljevi imaju rok i iznos. 11. Mesečni pregled (15 minuta): Na kraju meseca proveri: da li sam ostao/la u budžetu? Šta je iznenada povećalo troškove? Šta mogu promeniti sledeći mesec? 12. Praznici i posebne prilike: Unapred planiraj troškove (Božić, Nova Godina, rodjendani). Odloži mesečno malo u 'fond za praznike' da te ne iznenade.",
       },
     ],
     keyTakeaways: [
@@ -458,11 +458,11 @@ const articles: Article[] = [
       {
         heading: "Studentski budžet – gde se troši novac?",
         body: "Tipični troškovi studenta u Srbiji: Kirija (izvan doma): 20.000–40.000 RSD. Hrana (dom/menza vs. restorani): 10.000–20.000 RSD. Prevoz: varira po gradu; proveri cenu studentske mesečne karte u svom gradu. Udžbenici i materijali: 2.000–5.000 RSD. Zabava i izlasci: Ovo je gde 'deca' troše previše. Cilj: Max 15% budžeta.",
-        tip: "Studentska mesečna karta u Beogradu ima cenu koja se menja — proveri GSP cenovnik (https://www.gsp.rs/) za tačnu cenu.",
+        
       },
       {
         heading: "Studentski kredit – da ili ne?",
-        body: "Studentski kredit: Pro – ulaganje u obrazovanje koje povećava zaradu. Kontra – kredit bez prihoda stvara loše navike i stress. Preporuka: Prvo iscrpi stipendije, studentski posao, i porodičnu podršku. Ako uzmeš kredit, uzmi minimum potrebnog i počni vraćati čim zaposliš. Izbegavaj: Potrošačke kredite za opremanje stana, laptop, telefon ili putovanje. Iznajmi, kupi polovno, ili sačekaj – kredit za tromu robu nije pametno.",
+        body: "Studentski kredit: Pro – ulaganje u obrazovanje koje povećava zaradu. Kontra – kredit bez prihoda stvara loše navike i stres. Preporuka: Prvo iscrpi stipendije, studentski posao, i porodičnu podršku. Ako uzmeš kredit, uzmi minimum potrebnog i počni vraćati čim zaposliš. Izbegavaj: Potrošačke kredite za opremanje stana, laptop, telefon ili putovanje. Iznajmi, kupi polovno, ili sačekaj – kredit za tromu robu nije pametno.",
       },
       {
         heading: "Navike koje izgradiš kao student traju ceo život",

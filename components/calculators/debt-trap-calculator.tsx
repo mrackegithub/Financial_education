@@ -152,7 +152,7 @@ export function DebtTrapCalculator() {
         <div>
           <p className="font-bold text-sm text-destructive">Kreditne kartice: zamka minimalnih rata</p>
           <p className="text-sm text-muted-foreground mt-0.5">
-            Kada placas samo minimalni iznos, banka zaradjuje na tebi godinama. Vidi koliko te to zapravo kosta.
+            Kada plaćaš samo minimalni iznos, banka zarađuje na tebi godinama. Vidi koliko te to zapravo košta.
           </p>
         </div>
       </div>
@@ -243,6 +243,17 @@ export function DebtTrapCalculator() {
               ona pada svaki mesec jer pada stanje.
             </p>
           </div>
+
+
+
+
+
+
+            {/* Ovde treba doci unos za min rate i min iznos */}
+          
+
+
+
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-3">
