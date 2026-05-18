@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -31,6 +32,7 @@ export default function RootLayout({
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
+      <GoogleAnalytics gaId="G-QS5XJSFD9L" />
     </html>
   )
 }
